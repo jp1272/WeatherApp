@@ -1,5 +1,5 @@
 export default function WeatherGlance({ temp, description, high, low }) {
-  let picture = "";
+  let picture = "clouds";
 
   if (description.toLowerCase() === "partly cloudy") {
     picture = "clouds";
